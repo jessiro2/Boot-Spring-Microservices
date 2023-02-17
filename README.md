@@ -84,4 +84,5 @@ Steps to making this work:
   - Have microservices register (publish) using Eureka client
   - Have microservices locate (consume) using Eureka client
 
+**Training Completion RECAP** - Spring Boot Microservices (started 3 microservices and had them communicate with each other using rest template first with hard coded URLs, changed the harded coded URLs using a concept of service discovery, created a Eureka server and registered all these microservices as Eureka Client by adding them to the class path, used the load-balanced annotation to leverage Eureka Server with very minimal code changes and having client-side load balancing.
 
